@@ -75,7 +75,7 @@ a:hover {
 }
 
 .post-card {
-    background-color: #ddd;
+    background-color: antiquewhite;
     padding: 1rem;
     border-radius: 6px;
 }
@@ -102,9 +102,34 @@ a:hover {
     background-color: #003f7f;
 }
 
+/* I added this: begin */
+.button-cv {
+    display: block;
+    margin-left: auto;
+    max-width: max-content;
+    background-color: #ff9900; /* #0055aa; */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.button-cv:hover {
+    background-color: #cc7a00; /* #003f7f; */
+}
+/* I added this: end */
+
+
 /* ===== Featured Base Styles  ===== */
 .featured {
+    /* Highlight Featured Work Section */
+    border: 2px solid #ff9900;
+    box-shadow: 0 0 10px rgba(255, 153, 0, 0.3);
+
     padding: 2rem 1rem 3rem 1rem;
     margin: 2rem 0 4rem 0;
     background: rgba(255, 180, 0, .1)
+}
+
+.featured h2 {
+  color: #ff9900;
 }
